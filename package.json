@@ -1,0 +1,20 @@
+{
+  "name": "dts-reproduction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "rollup": "^4.21.0",
+    "rollup-plugin-esbuild": "^6.1.1",
+    "rollup-plugin-preserve-shebangs": "^0.2.0",
+    "unplugin-isolated-decl": "^0.4.6"
+  }
+}
